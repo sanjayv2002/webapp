@@ -18,7 +18,7 @@ docker compose up
 👤 **Sanjay Kumar**
 
 * Github: [@sanjayv2002](https://github.com/sanjayv2002)
-* LinkedIn: [@SANJAY KUMAR V](https://linkedin.com/in/SANJAY KUMAR V)
+* LinkedIn: [@SANJAY KUMAR V](https://www.linkedin.com/in/sanjay-kumar-v-474316205/)
 
 ## Show your support
 
