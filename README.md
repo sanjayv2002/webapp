@@ -9,6 +9,7 @@
 
 ## Install
 
+<p> Run this command to run both the server and client </p>
 ```sh
 docker compose up
 ```
