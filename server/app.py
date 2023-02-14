@@ -1,6 +1,5 @@
 from flask import Flask 
-from flask_cors import cross_origin
-
+from flask_cors import cross_origin 
 
 app = Flask(__name__)
 
@@ -12,4 +11,4 @@ def home():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host = "127.0.0.1",port = 5000)
