@@ -1,13 +1,20 @@
-const Test = async () => {
-    const res = await fetch('http://localhost:5000/')
-    const data = await res.json()
+import { useEffect, useState } from "react";
+
+const Test = () => {
+
+    useEffect(() => {
+        fetch('http://127.0.0.1:5000/').then(
+            response => response.json()
+        ).then( result => console.log(result))
+    }, [])
 
     return (
-        (typeof data.members === 'undefined') ? (
-            <p>Loading...</p>
-        ) : (
-            <p> {data.members}</p>
-        )
+        // (typeof data.members === 'undefined') ? (
+        //     <p>Loading...</p>
+        // ) : (
+        //     <p> {data.members}</p>
+        // )
+        <></>
     )
 }
 
